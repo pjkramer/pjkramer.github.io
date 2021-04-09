@@ -56,7 +56,8 @@ h2 {
 
 img {
   width: 100%;
-  height: auto;
+  height: 50vh;
+  object-fit: cover;
 }
 
 /* Added wrapper class, set some spacing. Remember, margin sets space outside of the box, while padding sets the space inside the box */
@@ -68,8 +69,8 @@ img {
 }
 
 .bio {
-  color: #ffffff
-  font-size: 24px;
+  color: #ffffff;
+  font-size: 30px;
   font-family: 'Work Sans'
 }
 
@@ -84,7 +85,7 @@ img {
   border-radius: 28px;
   border: 1px solid #ffffff;
   cursor: pointer;
-  color: #ffffff
+  color: #ffffff;
   font-size: 20px;
   padding: 16px 31px;
   text-decoration: none;
